@@ -13,3 +13,5 @@ Common recursive problems implemented in functional programming in Scala.
 
 +
   implementation: normal recursion (mergeSort.scala)
++
+  implementation: tail recursion
