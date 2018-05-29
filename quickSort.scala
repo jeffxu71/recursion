@@ -1,6 +1,6 @@
 
 
-object qSort extends App {
+object Main extends App {
 
   def quickSort(l: List[Int]): List[Int] = l match {
     case Nil => Nil

@@ -1,8 +1,8 @@
 import scala.annotation.tailrec
 
-object tailrecQsort extends App {
+object Main extends App {
 
-  def qsort[T](xs: List[T])(lt: (T, T) => Boolean) = {
+  def tcoQuickSort[T](xs: List[T])(lt: (T, T) => Boolean) = {
 
     @tailrec
     def loop(todo: List[List[T]], done: List[T]): List[T] = todo match {
@@ -22,7 +22,7 @@ object tailrecQsort extends App {
   }
 
   val l = List[Int](6,12,3,9,3,5,1)
-  val z = qsort(l)((x, y) => if (x<y) true else false)
+  val z = tcoQuickSort(l)((x, y) => if (x<y) true else false)
 
   println(z)
 }

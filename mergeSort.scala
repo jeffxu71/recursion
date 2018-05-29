@@ -1,6 +1,6 @@
 
 
-object mSort extends App {
+object Main extends App {
 
   def merge(xs: List[Int], ys: List[Int]): List[Int] = (xs, ys) match {
     case (Nil, ys) => ys
