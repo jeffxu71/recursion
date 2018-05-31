@@ -20,3 +20,10 @@ Common recursive problems implemented in functional programming in Scala.
 
 +
   implementation: normal recursion (bubbleSort.scala)
+
+## Insertion Sort
+
++
+  implementation: normal recursion (insertionSort.scala)
+
+
