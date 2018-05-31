@@ -24,6 +24,6 @@ Common recursive problems implemented in functional programming in Scala.
 ## Insertion Sort
 
 +
-  implementation: normal recursion (insertionSort.scala)
+  implementation: normal recursion (insertionSort.scala, insertionSort2.scala)
 
 
